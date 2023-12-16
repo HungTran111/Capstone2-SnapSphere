@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__posts {
+  padding: 20px;
+  justify-content: center
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 70px;
+}
+
+.app__headerLogo {
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.upload__box {
+  padding: 5px;
+}
+
+.signintoupload {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 8px;
+}
+
+.button__logout {
+  margin: 20px;
+  border: none;
+  border-left: 4px solid rgb(78, 147, 199);
+}
+
+.button__signin{
+  margin-top: 25px;
+  margin: 10px;
+  border: none;
+  border-left: 4px solid rgb(78, 147, 199);
+}
+
+.button__signup {
+  margin: 10px;
+  margin-top: 25px;
+  border: none;
+  border-left: 4px solid rgb(78, 147, 199);
+}
+
+.button__signin:hover {
+  background-color: rgb(78, 147, 199);
+}
+
+.button__signup:hover {
+  background-color: rgb(78, 147, 199);
+}
+
+.button__logout:hover {
+  background-color: rgb(78, 147, 199);
+}
+
+.button__signupForm {
+  margin-top: 20px;
+}
+
+.button__signinForm {
+  margin-top: 20px;
+}
