@@ -69,10 +69,6 @@ function Post({ postId, user, username, caption, imageUrl }) {
     setComment('');
   };
 
-  const handleEdit = () => {
-    setEditMode(true);
-  };
-
   const handleSaveEdit = () => {
     db.collection('posts').doc(postId).update({
       caption: editedCaption,
