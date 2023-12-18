@@ -1,10 +1,11 @@
 .post {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
     background-color: white;
-    border: 1px solid lightgrey;
+    border: 3px solid lightgrey;
     margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .post__avatar {
@@ -16,17 +17,26 @@
     object-fit: contain;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
+    border-radius: 5px;
 }
 
 .post__text {
     font-weight: normal;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .post__header {
     display: flex;
     align-items: center;
     padding: 20px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.left__side {
+    display: flex;
+    align-items: center;
 }
 
 .post__commentBox {
@@ -36,6 +46,7 @@
 
 .post__comments {
     padding: 20px;
+    border-radius: 5px;
 }
 
 .post__input {
@@ -49,4 +60,40 @@
     flex: 0;
     border: none;
     border-top: 1px solid lightgray;
+}
+
+.button__delete {
+    float: right;
+}
+
+.post__likes {
+    display: flex;
+    padding-left: 15px;
+}
+
+.post__editForm {
+    display: flex;
+}
+
+/* .button__actions {
+    width: 200px;
+    height: ;
+} */
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editComment__button {
+    width: 40px;
+    height: 20px;
+    border: none;
+    /* border-bottom: 1px solid lightgray; */
+    background-color: white;
+    font-size: x-small;
+}
+
+.editComment__button:hover {
+    background-color: darkgray;
 }

@@ -2,8 +2,22 @@
   margin: 0;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://images.pexels.com/photos/2824173/pexels-photo-2824173.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .app {
-  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  min-height: 100vh;
+  padding: 20px;
+  background: transparent; 
 }
 
 .app__posts {
@@ -16,12 +30,14 @@
   top: 0;
   z-index: 1;
   background-color: white;
-  border-bottom: 1px solid lightgrey;
+  /* border-bottom: 5px solid lightgrey; */
+  border-radius: 15px;
   object-fit: contain;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
   height: 70px;
+  background: transparent;
 }
 
 .app__headerLogo {
@@ -43,28 +59,34 @@
 .signintoupload {
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 49%;
   margin-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .button__logout {
-  margin: 20px;
-  border: none;
-  border-left: 4px solid rgb(78, 147, 199);
-}
-
-.button__signin{
-  margin-top: 25px;
   margin: 10px;
   border: none;
   border-left: 4px solid rgb(78, 147, 199);
+  padding: 15px;
+}
+
+.button__signin{
+  margin-top: 16px;
+  margin: 10px;
+  border: none;
+  border-left: 4px solid rgb(78, 147, 199);
+  padding: 10px;
 }
 
 .button__signup {
   margin: 10px;
-  margin-top: 25px;
+  margin-top: 16px;
   border: none;
   border-left: 4px solid rgb(78, 147, 199);
+  padding: 10px;
 }
 
 .button__signin:hover {

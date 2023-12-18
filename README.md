@@ -1,4 +1,54 @@
-# Getting Started with Create React App
+# Instagram Clone
+
+## Overview
+
+This project is a React-based Instagram clone that allows users to sign up, log in, upload images, and view posts with comments.
+
+## Technologies Used
+
+- React
+- Firebase (Firestore, Authentication, Storage)
+- Material-UI
+- CSS
+
+## Features
+
+1. **Authentication:**
+   - Users can sign up and log in securely using Firebase Authentication.
+   - Logout functionality is available.
+
+2. **Posts:**
+   - Posts are displayed with usernames, captions, and images.
+   - Posts are sorted by timestamp in descending order.
+
+3. **Image Upload:**
+   - Users can upload images along with captions.
+   - Image uploads are stored in Firebase Storage.
+   - Progress bar indicates upload status.
+
+4. **Comments:**
+   - Users can add comments to posts.
+   - Comments are displayed with usernames and timestamps.
+
+## Project Structure
+
+- **App.js:** Main component handling overall app structure.
+- **firebase.js:** Firebase configuration and initialization.
+- **ImageUpload.js:** Component for image uploads.
+- **Post.js:** Component rendering individual posts.
+- **CSS files:** Styles for different components.
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Set up Firebase project and update `firebaseConfig` in `firebase.js` with your credentials.
+4. Run the app using `npm start`.
+
+## Additional Notes
+
+- **Modal Component:** Uses Material-UI's `Modal` for sign-up and sign-in forms.
+- **Avatar Component:** Material-UI's `Avatar` is used for user avatars.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

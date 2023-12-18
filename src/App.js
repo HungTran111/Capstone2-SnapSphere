@@ -139,13 +139,18 @@ function App() {
       </Modal>
 
       <div className='app__header'>
-        <h1 className='app__headerLogo'>Instagram</h1>
+        <h1 className='app__headerLogo'>SnapSphere</h1>
         {user ? (
-        <button className='button__logout' onClick={() => auth.signOut()}>Log Out</button>
+        <div className='app__userContainer'>
+          <span className='app__userName'>{user.displayName}</span>
+          <button className='button__logout' onClick={() => auth.signOut()}>
+            Log Out
+          </button>
+        </div>
       ): (
         <div className='app__loginContainer'>
-        <button className='button__signin' onClick={() => setOpenSignIn(true)}>Sign In</button>
-        <button className='button__signup' onClick={() => setOpen(true)}>Sign Up</button>
+          <button className='button__signin' onClick={() => setOpenSignIn(true)}>Sign In</button>
+          <button className='button__signup' onClick={() => setOpen(true)}>Sign Up</button>
         </div>
       )}
       </div>

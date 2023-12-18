@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px solid  lightgray;
+    border: 5px solid  rgb(186, 186, 186);
     padding: 10px;
 }
 
@@ -21,19 +21,24 @@
     border: none;
     border-right: 2px solid lightgray;
     border-left: 2px solid  lightgray;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .input__file {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
+    
 }
 
 .button__post {
     border: none;
     background-color: white;
-    border-right: 2px solid  lightgray;
-    font-size: medium;
-    border-left: 2px solid  lightgray;
+    /* border-right: 2px solid  lightgray; */
+    font-size: 20px;
+    /* border-left: 2px solid  lightgray; */
+    border-radius: 10px;
+    background: transparent;
 }
 
 .button__post:hover {
