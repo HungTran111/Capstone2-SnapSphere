@@ -71,6 +71,7 @@ body {
   border: none;
   border-left: 4px solid rgb(78, 147, 199);
   padding: 15px;
+  background-color: rgb(193, 193, 192);
 }
 
 .button__signin{
@@ -79,6 +80,7 @@ body {
   border: none;
   border-left: 4px solid rgb(78, 147, 199);
   padding: 10px;
+  background-color: rgb(193, 193, 192);
 }
 
 .button__signup {
@@ -87,6 +89,7 @@ body {
   border: none;
   border-left: 4px solid rgb(78, 147, 199);
   padding: 10px;
+  background-color: rgb(193, 193, 192);
 }
 
 .button__signin:hover {

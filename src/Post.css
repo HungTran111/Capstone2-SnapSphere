@@ -1,8 +1,8 @@
 .post {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    background-color: white;
+    width: 40%;
+    background-color: rgb(226, 226, 226);
     border: 3px solid lightgrey;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -83,6 +83,7 @@
 .comment {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
 }
 
 .editComment__button {
@@ -90,8 +91,9 @@
     height: 20px;
     border: none;
     /* border-bottom: 1px solid lightgray; */
-    background-color: white;
+    background-color: rgb(218, 218, 218);
     font-size: x-small;
+    border-radius: 10px;
 }
 
 .editComment__button:hover {

@@ -1,12 +1,11 @@
 .imageupload {
     display: flex;
     flex-direction: column;
-    width: 57%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 5px solid  rgb(186, 186, 186);
+    border: 3px solid  rgb(186, 186, 186);
+    border-radius: 20px;
     padding: 10px;
 }
 
